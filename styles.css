@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -38,6 +38,25 @@ section {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
+}
+
+#design {
+    width: 100%;
+    height: 800px;
+    background-color: #f4f4f4;
+    background-image: url('assets/100.png');
+}
+
+#presentation {
+    width: 100%;
+    height: 800px;
+    background-color: #000000;
+}
+
+#equipe {
+    width: 100%;
+    height: 800px;
+    background-color: #f4f4f4;
 }
