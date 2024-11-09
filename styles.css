@@ -17,6 +17,11 @@ body, html {
     scrollbar-width: none;
 }
 
+#design {
+    background-image: url('assets/100.png');
+    background-size: 100%;
+}
+
 iframe {
     display: block;
     width: 100%;
@@ -186,4 +191,58 @@ header .logo {
 
 .next-button:hover {
     box-shadow: #fff 0px 0px 10px;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* EQUIPE */
+
+#equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: #000;
+}
+
+.card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0 0 10px;
+}
+
+.card p {
+    margin: 0;
+    color: #555;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
