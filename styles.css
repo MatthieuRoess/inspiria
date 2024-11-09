@@ -86,6 +86,7 @@ nav ul li a {
         text-align: center;
     }
 
+
     nav ul.active {
         display: flex;
     }
@@ -97,6 +98,7 @@ nav ul li a {
     .menu-toggle {
         display: block;
     }
+}
 
 #nav {
     position: fixed;
@@ -184,5 +186,4 @@ header .logo {
 
 .next-button:hover {
     box-shadow: #fff 0px 0px 10px;
-}
 }
