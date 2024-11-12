@@ -4,16 +4,16 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   height: 100%;
-  body,
-  html {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    height: 100%;
-    scroll-behavior: smooth;
-    text-transform: uppercase;
-  }
+}
+
+html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  height: 100%;
+  scroll-behavior: smooth;
+  text-transform: uppercase;
 }
 
   ::-webkit-scrollbar {
@@ -67,11 +67,12 @@ body {
   }
 
   footer {
-    background-color: #000000;
+    background-color: #f4f4f4;
   }
 
   footer p {
-    color: #fff;
+    margin: 0px;
+    color: #000000;
     text-align: center;
     padding: 20px;
   }
@@ -149,6 +150,7 @@ body {
   }
 
   .parallax-item {
+    background-color: #000000;
     width: 100vw;
     height: 100vh;
     flex: 0 0 auto;
@@ -232,6 +234,14 @@ body {
     transform: translateY(-10px);
   }
   @media screen and (max-width: 768px) {
+    #design {
+      display: none;
+    }
+
+    #design_mockup {
+      display: none;
+    }
+
     nav ul {
       display: none;
       flex-direction: column;
@@ -245,6 +255,7 @@ body {
 
     nav ul.active {
       display: flex;
+      margin: 0px;
     }
 
     nav ul li {
@@ -252,6 +263,7 @@ body {
     }
 
     .menu-toggle {
+      margin-right: 5%;
       display: block;
     }
 
