@@ -233,7 +233,7 @@ html {
   .card:hover {
     transform: translateY(-10px);
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1080px) {
     #design {
       display: none;
     }
@@ -292,4 +292,20 @@ html {
       height: auto;
     }
   }
+
+
+/*   video  */
+#presentation-video {
+  padding: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#presentation-video video {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
