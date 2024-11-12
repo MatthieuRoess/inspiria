@@ -80,6 +80,8 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
     background-image: url("assets/100.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #design_mockup {
