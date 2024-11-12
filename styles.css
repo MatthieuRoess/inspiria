@@ -232,6 +232,14 @@ html {
     transform: translateY(-10px);
   }
   @media screen and (max-width: 768px) {
+    #design {
+      display: none;
+    }
+
+    #design_mockup {
+      display: none;
+    }
+
     nav ul {
       display: none;
       flex-direction: column;
