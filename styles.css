@@ -312,7 +312,7 @@ html {
 
 /* contact */
 
-#contact {
+.contact {
   display: block;
   text-align: center;
   margin: 0px auto;
@@ -326,7 +326,7 @@ html {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-#contact:hover {
+.contact:hover {
   background-color: #333;
   transform: translateY(-5px);
 }
